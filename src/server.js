@@ -13,7 +13,6 @@ const run = async () =>{
         useNewUrlParser: true,
         useUnifiedTopology: true,
       });
-
     const admin = new AdminBro(options);
     const router = buildAdminRouter(admin);
 
