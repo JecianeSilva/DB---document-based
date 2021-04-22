@@ -15,6 +15,13 @@ const options ={
         companyName: 'LibAdmin',
         favicon: '',
     },
+    dashboard: {
+      handler: async () => {
+        return { some: 'output' }
+      },
+      component: AdminBro.bundle('./my-dashboard-component'),
+      preventAssignment: false
+    },
     resources:[Library],
     locale: {
         translations: {
