@@ -16,9 +16,9 @@ const Dashboard = () => {
 
   return (
     <Box variant="grey">
-      <Box variant="white" style={{display: 'flex',alignItems: 'center',justifyContent: 'center', flexDirection: 'column'}}>
-        <img src="https://magazine25.vteximg.com.br/arquivos/ids/189732-550-550/Lettering-Transfer-para-Balao-Bem-Vindo-Preto-Parabens-22X18-cm----1-Unidade.jpg?v=637366580225570000" alt="logo" style={{width: '250px', display:"flex", justifyContent: 'center'}} />
-        <img src="https://i.postimg.cc/FHY1syH0/photo5179356609514678668-removebg-preview.png" alt="logo" style={{width: '150px', display:"flex", justifyContent: 'center'}} />
+      <Box variant="white" style={{display: 'flex', height: '100%', alignItems: 'center',justifyContent: 'cener', flexDirection: 'column', background:"url(https://i.postimg.cc/FHY1syH0/photo5179356609514678668-removebg-preview.png), #fff", backgroundRepeat:"no-repeat",backgroundPosition: 'right bottom',}}>
+        <img src="http://www.frutal.mg.gov.br/wp-content/uploads/2017/03/BEM-VINDO-TRANSPARENTE-DE-VERDADE-1024x253.png" alt="logo" style={{width: '650px', display:"flex", justifyContent: 'center', filter: 'invert(302%) sepia(90%) saturate(474%) hue-rotate(343deg) brightness(111%) contrast(105%)'}} />
+        {/* <img src="https://i.postimg.cc/FHY1syH0/photo5179356609514678668-removebg-preview.png" alt="logo" style={{width: '150px', display:"flex", justifyContent: 'center'}} /> */}
       </Box>
     </Box>
   )
